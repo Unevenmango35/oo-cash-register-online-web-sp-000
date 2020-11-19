@@ -32,11 +32,6 @@ def apply_discount()
 end
 
 def items
-  if qty > 1
-     i = 0
-     while i < qty
-    @items << title
-    i += 1
   @items
 end
 
