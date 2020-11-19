@@ -13,6 +13,8 @@ class CashRegister
      while i < qty
     @items << title
     i += 1
+  else
+    @items << title
   end
     
     self.total += price*qty
