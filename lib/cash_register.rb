@@ -8,7 +8,7 @@ class CashRegister
   end
 
  def add_item(title, price, qty = 1)
-   if qty > 0
+   if qty > 1
     @items << title
   else
     
